@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Landing Page Design Using HTML & CSS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.png" class="logo" style="width: 10%">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Learn</a></li>
+                    <li><a href="">Practice</a></li>
+                    <li onclick="myFunction()" class="dropbtn"><a href="">
+                            Contact
+                            <i class="fa fa-caret-down"></i>
+                    </a></li>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Co-ord 1: 1234567</a>
+                        <a href="#">Co-ord 2: 7654321</a>
+                    </div>
+                </ul>
+            </nav>
+            <p style="color: #F5FFFA">For Registered Students</p>
+            <button class="btn" id="btn1">Log In</button>
+        </div>
+        <div class="content">
+            <div class="text">
+            <h1>Welcome to<br> <span>Spark 2023</span></h1>
+            <p>
+                Spark is the Tech Fest of Shaastra conducted by students of IIT Madras,<br>
+                specially aimed at spreading technical awareness among school students.                
+            </p>
+            <button class="btn2">Register Now</button>
+           </div>
+       </div>
+       <div class="content">
+            <div class="text2">
+                <h3 style="margin-left: 50px;">Important dates</h1>
+                <p>
+                    Inaguration: 15th May<br>
+                    Online Workshops: 16th May<br>
+                    Games and Competitions: 17th May
+                </p>
+            </div>
+       </div>
+   </div>
+</body>
+</html>
